@@ -1,3 +1,3 @@
 <template>
-  <div>About Component</div>
+  <div>About Component!</div>
 </template>

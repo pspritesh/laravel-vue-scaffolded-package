@@ -3,7 +3,7 @@ import Vue from 'vue';
 import Vuetify from 'vuetify';
 
 // Vue routes
-import Routes from '@/js/routes/routes.js';
+import Routes from '@/js/routes/Routes';
 
 // Components
 import App from '@/js/views/App';

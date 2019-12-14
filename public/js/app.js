@@ -19477,7 +19477,7 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", [_vm._v("About Component")])
+  return _c("div", [_vm._v("About Component!")])
 }
 var staticRenderFns = []
 render._withStripped = true
@@ -19501,7 +19501,7 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", [_vm._v("Home Component")])
+  return _c("div", [_vm._v("Home Component!")])
 }
 var staticRenderFns = []
 render._withStripped = true
@@ -72335,7 +72335,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(vue__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var vuetify__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! vuetify */ "./node_modules/vuetify/dist/vuetify.js");
 /* harmony import */ var vuetify__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(vuetify__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _js_routes_routes_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @/js/routes/routes.js */ "./resources/js/routes/routes.js");
+/* harmony import */ var _js_routes_Routes__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @/js/routes/Routes */ "./resources/js/routes/Routes.js");
 /* harmony import */ var _js_views_App__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @/js/views/App */ "./resources/js/views/App.vue");
 
 
@@ -72347,7 +72347,7 @@ __webpack_require__.r(__webpack_exports__);
 vue__WEBPACK_IMPORTED_MODULE_1___default.a.use(vuetify__WEBPACK_IMPORTED_MODULE_2___default.a);
 var app = new vue__WEBPACK_IMPORTED_MODULE_1___default.a({
   el: '#app',
-  router: _js_routes_routes_js__WEBPACK_IMPORTED_MODULE_3__["default"],
+  router: _js_routes_Routes__WEBPACK_IMPORTED_MODULE_3__["default"],
   render: function render(h) {
     return h(_js_views_App__WEBPACK_IMPORTED_MODULE_4__["default"]);
   },
@@ -72508,9 +72508,9 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./resources/js/routes/routes.js":
+/***/ "./resources/js/routes/Routes.js":
 /*!***************************************!*\
-  !*** ./resources/js/routes/routes.js ***!
+  !*** ./resources/js/routes/Routes.js ***!
   \***************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
